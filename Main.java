@@ -1,4 +1,4 @@
-import src.manual.Calculator;
+import src.components.Calculator;
 import javax.swing.*;
 
 public class Main {
@@ -15,7 +15,5 @@ public class Main {
         frame.add(calculator.root);
 
         frame.setVisible(true);
-
-        calculator.next();
     }
 }
